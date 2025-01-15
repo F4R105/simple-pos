@@ -1,0 +1,4 @@
+<?php
+    SESSION_START();
+    
+?>

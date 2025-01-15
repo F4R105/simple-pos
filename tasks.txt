@@ -1,0 +1,4 @@
+session expiry - since if not logged out it stays logged in
+input sanitization
+filter - view products
+api validation - frontend
