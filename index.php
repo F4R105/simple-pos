@@ -1,7 +1,7 @@
 <?php require("./components/head.php"); ?>
 <body>
     <?php require("./components/navbar.php"); ?>
-    <h1>Welcome to BiasharaNasi</h1>
+    <h1>Welcome to Simple POS</h1>
 
     <a href="./pages/auth/login.php">Login</a>
     <a href="./pages/auth/register.php">Register</a>

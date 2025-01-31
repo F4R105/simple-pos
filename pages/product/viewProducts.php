@@ -87,6 +87,23 @@ if (!$data) {
         </form>
         <a href="./addProduct.php?sid=<?php echo base64_encode($shop); ?>">Add new product</a>
         <div>
+            <select name="" id="">
+                <option value="">Order</option>
+                <option value="">Date added</option>
+                <option value="">Profit (High to Low)</option>
+                <option value="">Profit (Low to Hight)</option>
+                <option value="">Units remained (High to Low)</option>
+                <option value="">Units remained (Low to high)</option>
+            </select>
+            <select name="" id="">
+                <option value="">Filter</option>
+                <option value="">Zero units</option>
+                <option value="">Loss</option>
+                <option value="">Profit</option>
+                <option value=""></option>
+            </select>
+        </div>
+        <div>
             <a href="./viewProducts.php?sid=<?php echo $_GET['sid']; ?>&page=<?php echo $prevPage; ?>">Prev</a>
             <span><?php echo $page;echo "/"; echo $noOfPages; ?></span>
             <a href="./viewProducts.php?sid=<?php echo $_GET['sid']; ?>&page=<?php echo $nextPage; ?>">Next</a>
